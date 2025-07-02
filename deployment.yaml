@@ -30,7 +30,7 @@ spec:
       volumes:
       - name: web-root
         hostPath:
-          path: /mnt/web_hosting
+          path: /mnt/web_hosting/dokuwiki
           type: Directory
       - name: nginx-conf
         configMap:
